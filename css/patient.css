@@ -1,0 +1,36 @@
+form {
+    border: 1px solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+}
+
+label {
+    display: inline-block;
+    padding: 12px 12px;
+}
+
+.input {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 8px;
+}
+
+#thebtn {
+    background-color: brown;
+    padding: 12px;
+    width: 40%;
+    float: right;
+    color: white;
+}
+
+img {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
