@@ -5,16 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diagnosis</title>
+    <title>Patient Admission</title>
+    <link rel="stylesheet" href="css/patient.css">
 </head>
 
 <body>
-    <div>
-        <label>Test Done</label><br>
-        <textarea name="ao1" cols="50" rows="30"></textarea>
+    <img class="logo" src="images/logo.png" width="150" height="100">
+    <h2 class="hd2">Patient Registration Form</h2>
+    <div class="formdiv">
+        <form action="#" method="post">
+            <fieldset>
+                <legend>NHIF Details</legend>
+                <label>Member number</label><label class="required">*</label>
+                <input type="number" class="input" placeholder="Member Number" required autofocus><br>
+                <label>National ID</label><label class="required">*</label>
+                <input type="number" class="input" placeholder="ID Number" required autofocus><br>
+                <label>How many kids</label><label class="required">*</label>
+                <input type="number" class="input" placeholder="kids you have" required autofocus><br>
+            </fieldset>
+            <fieldset>
+                <legend>Next of Kin Details</legend>
+                <label>Next of Kin</label><label class="required">*</label>
+                <input type="text" class="input" placeholder="Next Of Kin" required autofocus><br>
+                <label>Relationship</label><label class="required">*</label>
+                <input type="text" class="input" placeholder="Relationship" required autofocus><br>
+            </fieldset>
+            <fieldset>
+                <legend>Insurance Details</legend>
+                <label>Insurance Plan</label><label class="required">*</label>
+                <input type="text" class="input" placeholder="insurance plan" required autofocus><br>
+                <label>Plan ID/Group Number</label><label class="required">*</label>
+                <input type="text" class="input" placeholder="Relationship" required autofocus><br>
+                <label>Medicare Number</label><label class="required">*</label>
+                <input type="number" class="input" placeholder="Relationship" required autofocus><br>
+            </fieldset>
+            <input id="btnsubmit" type="submit">
+            <input id="btnrst" type="reset">
 
+        </form>
+        <a class="linkprevious" href="Patient.html">Back</a>
     </div>
-    <a href="Patient.html">Back</a>
+
 
 </body>
 

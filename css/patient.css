@@ -1,36 +1,79 @@
-form {
-    border: 1px solid black;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: pink;
+body {
+    background-image: url(../images/hospital.jpg);
 }
 
-label {
-    display: inline-block;
-    padding: 12px 12px;
+.formdiv {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    height: 80%;
+    padding: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    padding: 2px;
+    border: blue solid;
+    align-content: center;
+    background-color: cadetblue;
+}
+
+.logo {
+    border-radius: 40%;
+    margin-left: 45%;
+}
+
+fieldset {
+    text-align: center;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
+
+.hd2 {
+    text-align: center;
+    color: blue;
 }
 
 .input {
-    width: 50%;
-    padding: 10px;
-    box-sizing: border-box;
-    margin: 8px;
+    padding: 1px;
+    margin: 5px;
 }
 
-#thebtn {
-    background-color: brown;
-    padding: 12px;
-    width: 40%;
-    float: right;
-    color: white;
+.linkprevious {
+    text-align: center;
+    outline-style: double;
+    border-color: lightblue solid;
+    color: black;
+    padding: 2px;
+    margin: 5px;
+    margin-bottom: 5px;
 }
 
-img {
-    box-sizing: border-box;
-    width: 150px;
-    height: 150px;
-    margin-top: 5%;
+.linknext {
+    margin-left: 90%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    outline-style: double;
+    border-color: lightblue solid;
+    color: black;
+}
+
+#btnsubmit {
+    padding: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     margin-left: 40%;
-    margin-right: 40%;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(54, 32, 178);
+}
+
+#btnrst {
+    color: white;
+    font-size: 17px;
+    background-color: rgb(54, 32, 178);
+}
+
+.required {
+    color: red;
 }
